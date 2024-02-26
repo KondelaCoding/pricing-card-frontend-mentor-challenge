@@ -101,3 +101,22 @@ ul {
 button:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 720px) {
+  .box-left, .box-right {
+    width: 100%;
+  }
+  
+  .box-left {
+    border-radius: 0;
+  }
+  
+  .box-right {
+    border-bottom-left-radius: 10px;
+  }
+  
+  .container {
+    width: 100%;
+    height: auto;
+  }
+}
